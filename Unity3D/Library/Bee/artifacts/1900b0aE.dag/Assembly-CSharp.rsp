@@ -346,10 +346,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/LineCollision.cs"
 "Assets/Scripts/WayPoint/Editors/WayPoint.cs"
 "Assets/Scripts/WayPoint/Editors/WayPointEditor.cs"
 "Assets/Scripts/WayPoint/Math/CenterController.cs"
 "Assets/Scripts/WayPoint/Math/MyGizmo.cs"
+"Assets/Scripts/WayPoint/Math/mytest.cs"
 "Assets/Scripts/WayPoint/Node.cs"
 -langversion:9.0
 
