@@ -6,28 +6,24 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
 {
-    [Range(0.0f, 180.0f)]
-    public float Angle;
-
     public Node Target;
+    public List<Vector3> vertices = new List<Vector3>();
 
     private float Speed;
 
-    private int check;
+    public Material material;
+
+    Vector3 LeftCheck;
+    Vector3 RightCheck;
+
+
+    [Range(0.0f, 180.0f)]
+    public float Angle;
+
     private bool move;
-
-    private Camera camera;
-
-    private Vector3 LeftCheck, RightCheck;
-
-    private Vector3 offset;
-
-    private bool View;
 
     private void Awake()
     {
-        camera = Camera.main;
-
         SphereCollider coll = GetComponent<SphereCollider>();
         coll.radius = 0.05f;
         coll.isTrigger = true;
@@ -35,110 +31,128 @@ public class EnemyController : MonoBehaviour
         Rigidbody rigid = GetComponent<Rigidbody>();
         rigid.useGravity = false;
 
-        offset = new Vector3(0.0f, 10.0f, 0.0f);
         //Target = GameObject.Find("ParentObject").transform.GetChild(0).GetComponent<Node>();
-        View = false;
+        Target = null;
     }
 
     private void Start()
     {
-        Angle = 45.0f;
-        move = false;
+        material.color = Color.red;
 
-        Speed = 3.0f;
+        Speed = 5.0f;
 
         float x = 2.5f;
         float z = 3.5f;
 
         LeftCheck = transform.position + (new Vector3(-x, 0.0f, z));
         RightCheck = transform.position + (new Vector3(x, 0.0f, z));
+
+        Angle = 45.0f;
+
+        move = false;
+       
     }
 
     private void Update()
     {
-        View = (Input.GetKey(KeyCode.Tab)) ? true:false;
-
-        if (View)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            offset = new Vector3(0.0f, 5.0f, -3.0f);
-            camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 100.0f, Time.deltaTime);
-        }
-        else
-        {
-            offset = new Vector3(0.0f, 10.0f, -10.0f);
-            camera.fieldOfView = Mathf.Lerp(camera.fieldOfView, 60.0f, Time.deltaTime);
-        }
+            RaycastHit hit;
 
-        camera.transform.position = Vector3.Lerp(
-            camera.transform.position,
-            transform.position + offset,
-            0.016f
-            );
+            if (Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity))
+            {
+                MeshFilter meshFilter = hit.transform.gameObject.GetComponent<MeshFilter>();
+                Vector3[] verticesPoint = meshFilter.mesh.vertices;
 
-        camera.transform.LookAt(transform.position);
+                for (int i = 0; i < verticesPoint.Length; ++i)
+                {
+                    if (!vertices.Contains(verticesPoint[i]) && transform.position.y > verticesPoint[i].y)
+                    {
+                        vertices.Add(
+                            new Vector3(
+                            hit.transform.position.x + verticesPoint[i].x * hit.transform.lossyScale.x,
+                            //verticesPoint[i].y * hit.transform.lossyScale.y,
+                            transform.position.y,
+                            hit.transform.position.z + verticesPoint[i].z * hit.transform.lossyScale.z
+                            )
+                         );
+
+                    }
+                }
+            }
+
+            for (int i = 0; i < vertices.Count; ++i)
+            {
+                GameObject obj = new GameObject(i.ToString());
+                obj.transform.position = vertices[i];
+                obj.AddComponent<MyGizmo>();
+            }
+        }
 
         if (Target)
         {
+            Vector3 Direction = (Target.transform.position - transform.position).normalized;
+
+            transform.rotation = Quaternion.Lerp(
+                   transform.rotation,
+                   Quaternion.LookRotation(Direction),
+                   0.016f);
+
             if (move)
             {
-                Vector3 Direction = (Target.transform.position - transform.position).normalized;
-                transform.position += Direction * Time.deltaTime * Speed;
+                transform.position += Direction * Speed * Time.deltaTime;
             }
             else
             {
-                transform.rotation = Quaternion.Lerp(
-                    transform.rotation,
-                     Quaternion.LookRotation(transform.position, Target.transform.position),
-                    Time.deltaTime);
+                Vector3 targetDir = Target.transform.position - transform.position;
+                float angle = Vector3.Angle(targetDir, transform.forward);
+
+                if (Vector3.Angle(targetDir, transform.forward) < 0.1f)
+                    move = true;
             }
         }
     }
 
     private void FixedUpdate()
     {
+        float startAngle = (transform.eulerAngles.y - Angle);
+
         RaycastHit hit;
 
-        Debug.DrawRay(transform.position, RightCheck, Color.red);
-        Debug.DrawRay(transform.position, LeftCheck, Color.red);
+        Debug.DrawRay(transform.position,
+            new Vector3(
+                Mathf.Sin(startAngle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(startAngle * Mathf.Deg2Rad)) * 2.5f,
+            Color.white);
 
         if (Physics.Raycast(transform.position, LeftCheck, out hit, 5.0f))
         {
 
         }
 
+        Debug.DrawRay(transform.position,
+             new Vector3(
+                 Mathf.Sin((transform.eulerAngles.y + Angle) * Mathf.Deg2Rad), 0.0f, Mathf.Cos((transform.eulerAngles.y + Angle) * Mathf.Deg2Rad)) * 2.5f,
+             Color.green);
+
         if (Physics.Raycast(transform.position, RightCheck, out hit, 5.0f))
         {
 
         }
 
-        /*
-        Debug.DrawRay(transform.position,
-            new Vector3(
-                Mathf.Sin(Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(Angle * Mathf.Deg2Rad)) * 2.5f,
-            Color.green
-            );
 
-        Debug.DrawRay(transform.position,
-            new Vector3(
-                Mathf.Sin(-Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(Angle * Mathf.Deg2Rad)) * 2.5f,
-            Color.green
-            );
-        */
 
-        for (float f = -Angle; f < Angle; f += 5.0f)
+        //int Count = (int)((Angle * 2) / 5.0f);
+
+        for (float f = startAngle + 5.0f; f < (transform.eulerAngles.y + Angle - 5.0f); f += 5.0f)
         {
-            Debug.DrawLine(
-                transform.position,
-                transform.position +
+            Debug.DrawRay(transform.position,
                 new Vector3(
-                    Mathf.Sin((transform.rotation.eulerAngles.y + f) * Mathf.Deg2Rad),
-                    0.0f,
-                    Mathf.Cos((transform.rotation.eulerAngles.y + f) * Mathf.Deg2Rad)) * 2.5f,
-                Color.white
-            );
+                    Mathf.Sin(f * Mathf.Deg2Rad), 0.0f, Mathf.Cos(f * Mathf.Deg2Rad)) * 2.5f,
+                Color.red);
         }
     }
 
+    /*
     void function()
     {
         if (move)
@@ -152,21 +166,23 @@ public class EnemyController : MonoBehaviour
     {
         float time = 0.0f;
 
-        check = (check == 0) ? 1 : 0;
-
         while (time < 1.0f)
         {
+
             time += Time.deltaTime;
 
             yield return null;
-
         }
+
         move = false;
     }
+     */
 
     private void OnTriggerEnter(Collider other)
     {
-        if (Target.transform.name == other.transform.name)
-            Target = Target.Next;
+        move = false;
+
+        //if (Target.transform.name == other.transform.name)
+        //    Target = Target.Next;
     }
 }

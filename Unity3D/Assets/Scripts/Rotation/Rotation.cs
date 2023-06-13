@@ -20,26 +20,26 @@ public class Rotation : MonoBehaviour
 
         temp = new Vector3(0.0f, 0.0f, 0.0f);
         dest = new Vector3(100.0f, 0.0f, 0.0f);
-        
+
         check = 0;
     }
 
     void Update()
     {
-        transform.Rotate(0.0f, Input.GetAxis("Horizontal") * Time.deltaTime *50.0f, 0.0f, Space.Self);
+        transform.Rotate(0.0f, Input.GetAxis("Horizontal") * Time.deltaTime * 50.0f, 0.0f, Space.Self);
 
         if (Input.GetMouseButtonDown(0))
         {
             function();
         }
-       
+
     }
 
     void function()
     {
         if (move)
             return;
-        
+
         move = true;
         StartCoroutine(SetMove());
     }
@@ -50,7 +50,7 @@ public class Rotation : MonoBehaviour
 
         check = (check == 0) ? 1 : 0;
 
-        while(time < 1.0f)
+        while (time < 1.0f)
         {
             if (check == 0)
             {
@@ -72,7 +72,7 @@ public class Rotation : MonoBehaviour
             time += Time.deltaTime;
 
             yield return null;
-            
+
         }
         move = false;
     }

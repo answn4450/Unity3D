@@ -8,17 +8,18 @@ public class WayPoint : MonoBehaviour
 
     void Start()
     {
-        parent = GameObject.Find("ParentObject");
+        //parent = GameObject.Find("ParentObject");
+
+        parent = gameObject;
     }
 
     void Update()
     {
-        for ( int i=0;i<parent.transform.childCount;++i)
+        for (int i = 0; i < parent.transform.childCount; ++i)
         {
             Node node = parent.transform.GetChild(i).GetComponent<Node>();
 
-            Debug.DrawLine(node.transform.position, node.Next.transform.position);
-            //Debug.DrawLine(node.transform.position, node.transform.position + new Vector3(10.0f,0.0f,0.0f));
+            Debug.DrawLine(node.transform.position, node.Next.transform.position, Color.green);
         }
     }
 }

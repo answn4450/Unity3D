@@ -25,23 +25,26 @@ public class WayPointEditor : EditorWindow
 
             if (GUILayout.Button("Add Node", GUILayout.Width(350), GUILayout.Height(25)))
             {
-                if (Parent != null)
+                if(Parent != null)
                 {
                     GameObject NodeObject = new GameObject();
                     NodeObject.transform.name = "Node_" + Parent.transform.childCount;
+
                     Node node = NodeObject.AddComponent<Node>();
 
-                    // ** Node 설정
+                    // ** Node의 설정
                     SphereCollider coll = node.GetComponent<SphereCollider>();
-                    coll.radius = 0.2f;
+                    coll.radius = 0.05f;
 
                     NodeObject.transform.SetParent(Parent.transform);
+
                     NodeObject.transform.transform.position = new Vector3(
                         Random.Range(-10.0f, 10.0f), 0.0f, Random.Range(-10.0f, 10.0f));
 
-                    if (Parent.transform.childCount > 1)
+                    if (1 < Parent.transform.childCount)
                     {
                         Parent.transform.GetChild(Parent.transform.childCount - 2).GetComponent<Node>().Next = node;
+
                         node.Next = Parent.transform.GetChild(0).GetComponent<Node>();
                     }
                 }
