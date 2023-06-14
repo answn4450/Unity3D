@@ -348,6 +348,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/LineCollision.cs"
+"Assets/Scripts/Matrix.cs"
 "Assets/Scripts/Rotation/Rotation.cs"
 "Assets/Scripts/WayPoint/Editors/WayPoint.cs"
 "Assets/Scripts/WayPoint/Editors/WayPointEditor.cs"
