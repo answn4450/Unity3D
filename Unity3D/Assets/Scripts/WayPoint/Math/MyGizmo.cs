@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class MyGizmo : MonoBehaviour
 {
-    public Color color = Color.green;
+    public Color color;
+
+    private void Awake()
+    {
+        color = Color.green;
+    }
 
     private void OnDrawGizmos()
     {
