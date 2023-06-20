@@ -627,8 +627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Angle: 0
   scale: 0
-  EndPoint: {x: 0, y: 0, z: 0}
-  getNode: 0
 --- !u!135 &1885034684
 SphereCollider:
   m_ObjectHideFlags: 0
