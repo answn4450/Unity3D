@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [RequireComponent(typeof(SphereCollider))]
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
@@ -13,7 +12,6 @@ public class EnemyController : MonoBehaviour
     const int M = 0; // Matrix
 
     public Node Target = null;
-    public List<Node> Vertices = new List<Node>();
     public List<Node> BestList = new List<Node>();
     public List<Node> OpenList = new List<Node>();
 
@@ -25,16 +23,14 @@ public class EnemyController : MonoBehaviour
     [Range(0.0f, 180.0f)]
     public float Angle;
 
-    private bool move;
+    private bool getNode;
 
     [Range(1.0f, 2.0f)]
     public float scale;
 
-    public Vector3 EndPoint;
 
     private GameObject parent;
 
-    public bool getNode;
 
     private void Awake()
     {
@@ -56,18 +52,17 @@ public class EnemyController : MonoBehaviour
         float x = 2.5f;
         float z = 3.5f;
 
+        Target = new Node(
+            new Vector3(0.0f, 0.0f, 30.0f));
+
         LeftCheck = transform.position + (new Vector3(-x, 0.0f, z));
         RightCheck = transform.position + (new Vector3(x, 0.0f, z));
 
         Angle = 45.0f;
 
-        move = false;
+        getNode = false;
 
         scale = 1.0f;
-
-        EndPoint = GameObject.Find("EndPoint").transform.position;
-
-        getNode = false;
     }
 
     private void Update()
@@ -82,17 +77,22 @@ public class EnemyController : MonoBehaviour
                 {
                     getNode = true;
 
-                    bool initial = true;
-                    float bestDistance = 1000000.0f;
-                    float currentDistance;
+                    float bestDistance = float.MaxValue;
 
                     OpenList.Clear();
-                    Vertices.Clear();
 
-                    Node StartNode = new Node();
+                    List<Vector3> VertexList = GetVertex(hit.transform.gameObject);
 
-                    foreach (Vector3 element in GetVertex(hit.transform.gameObject))
+                    /*
+                    for (int i = 0; i < VertexList.Count; ++i)
+                        VertexList[i] = new Vector3(VertexList[i].x, 0.1f, VertexList[i].z);
+                     */
+
+                    Node StartNode = null;
+
+                    foreach (Vector3 element in VertexList)
                     {
+                        // ** 버텍스 위치를 가공하여 실재 이동이 가능한 노드로 구성함.
                         Matrix4x4[] matrix = new Matrix4x4[4];
 
                         matrix[T] = Matrix.Translate(hit.transform.position);
@@ -100,57 +100,168 @@ public class EnemyController : MonoBehaviour
                         matrix[S] = Matrix.Scale(hit.transform.lossyScale * scale);
 
                         matrix[M] = matrix[T] * matrix[R] * matrix[S];
-
                         Vector3 v = matrix[M].MultiplyPoint(element);
-
-                        // ** 제일 가까운 노드를 찾기 위함.
-                        currentDistance = Vector3.Distance(transform.position, v);
 
                         Node node = new Node();
                         node.Position = v;
+                        node.Cost = 0.0f;
+                        node.Next = null;
 
-                        if (initial)
-                        {
-                            initial = false;
-                            bestDistance = currentDistance;
-                            StartNode = node;
-                            BestList.Add(node);
-                        }
-                        else if (currentDistance < bestDistance)
-                        {
-                            bestDistance = currentDistance;
-                            StartNode = node;
-                        }
-                        else
-                            BestList.Add(node);
+                        OpenList.Add(node);
 
+                        // ** 제일 가까운 노트를 찾기 위함.
+                        float curentDistance = Vector3.Distance(transform.position, v);
+
+                        if (curentDistance < bestDistance)
+                        {
+                            bestDistance = curentDistance;
+                            StartNode = node;
+                        }
                     }
 
-                    // ** 시각적 표현
+                    // ** 시작위치를 
+                    if (StartNode != null)
+                        OpenList.Remove(StartNode);
 
-                    GameObject StartPoint = new GameObject("StarNode");
-                    StartPoint.transform.SetParent(parent.transform);
+                    BestList = AStar(StartNode, Target);
+
+
+                    // ** 시각적 표현
+                    GameObject StartPoint = new GameObject("StartNode");
                     StartPoint.transform.position = StartNode.Position;
+                    StartPoint.transform.SetParent(parent.transform);
                     MyGizmo gizmo = StartPoint.AddComponent<MyGizmo>();
                     gizmo.color = Color.red;
 
-                    if (StartNode != null)
-                        OpenList.Add(StartNode);
-
-                    for (int i = 1; i <BestList.Count; ++i)
+                    for (int i = 1; i < BestList.Count; ++i)
                     {
                         GameObject Object = new GameObject("node");
-                        StartPoint.transform.SetParent(parent.transform);
-                        StartPoint.transform.position = BestList[i].Position;
-                        StartPoint.AddComponent<MyGizmo>();
+                        Object.transform.position = BestList[i].Position;
+                        Object.transform.SetParent(parent.transform);
+                        Object.AddComponent<MyGizmo>();
                     }
-
-                    Node EndNode = new Node(GameObject.Find("EndPoint").transform.position);
-                    BestList = AStar(StartNode, EndNode);
-
                 }
             }
         }
+
+
+        List<Vector3> GetVertex(GameObject hitObject)
+        {
+            HashSet<Vector3> set = new HashSet<Vector3>();
+
+            // ** 하위 오브젝트를 확인.
+            if (hitObject.transform.childCount != 0)
+            {
+                // ** 하위 오브젝트가 존재한다면 모든 하위오브젝트를 확인.
+                for (int i = 0; i < hitObject.transform.childCount; ++i)
+                {
+                    // ** 모든 하위 오브젝트의 버텍스를 받아옴.
+                    // ** 중복 원소 제거 후 삽입.
+                    set.UnionWith(GetVertex(hitObject.transform.GetChild(i).gameObject));
+                }
+            }
+
+            List<Vector3> VertexList = new List<Vector3>(set);
+
+            // ** 현재 오브젝트의 MeshFilter 를 확인.
+            MeshFilter meshFilter = hitObject.GetComponent<MeshFilter>();
+
+            // ** MeshFilter 가 없다면 참조할 버텍스가 없으므로 종료
+            if (meshFilter == null)
+                return VertexList;
+
+            // ** 모든 버텍스를 참조
+            Vector3[] verticesPoint = meshFilter.mesh.vertices;
+
+            // ** hit 된 오브젝트의 모든 버텍스 확인.
+            for (int i = 0; i < verticesPoint.Length; ++i)
+            {
+                // ** 버텍스를 확인하는 조건.
+                if (!VertexList.Contains(verticesPoint[i])
+                    && verticesPoint[i].y < transform.position.y + 0.05f
+                    && transform.position.y < verticesPoint[i].y + 0.05f)
+                {
+                    // ** 해당 버텍스 추가
+                    VertexList.Add(verticesPoint[i]);
+                }
+            }
+
+            return VertexList;
+        }
+
+
+
+        List<Node> AStar(Node StartNode, Node EndNode)
+        {
+            List<Node> bestNodes = new List<Node>();
+
+            // ** (A*)
+            Node MainNode = StartNode;
+            int Count = 0;
+
+
+            bestNodes.Add(StartNode);
+
+
+            Node compair = StartNode;
+
+            while (OpenList.Count != 0)
+            {
+                Count++;
+
+                if (Count == 100)
+                    break;
+                // ** 근접한 노드를 찾는다.
+                float OldDistance = float.MaxValue;
+
+                for (int i = 0; i < OpenList.Count; ++i)
+                {
+                    float Distance = Vector3.Distance(compair.Position, OpenList[i].Position);
+
+                    if (Distance < OldDistance)
+                    {
+                        OldDistance = Distance;
+                        compair = OpenList[i];
+                    }
+                }
+
+                /*
+                if (!bestNodes.Contains(OpenList[index]))
+                {
+                    Node OldNode = bestNodes[bestNodes.Count - 1];
+                    Node curentNode = OpenList[index];
+
+                    RaycastHit Hit;
+                    // origin(이전노드), direction(현재노드)
+                    if (Physics.Raycast(OldNode.Position, curentNode.Position, out Hit, OldDistance))
+                    {
+                        Debug.Log(Hit.transform.name);
+
+                        if (Hit.transform.tag != "Node")
+                        {
+
+                        }
+                        else
+                        {
+
+                        }
+                    }
+
+                    if (Vector3.Distance(EndNode.Position, curentNode.Position) < Vector3.Distance(EndNode.Position, OldNode.Position))
+                    {
+                        OpenList.Remove(curentNode);
+                        bestNodes.Add(curentNode);
+                    }
+                    else
+                        break;
+                }
+                */
+            }
+
+            bestNodes.Add(EndNode);
+            return bestNodes;
+        }
+
 
 
         /*
@@ -177,123 +288,7 @@ public class EnemyController : MonoBehaviour
             }
         }
          */
-        MyTest();
     }
-
-
-    private List<Vector3> GetVertex(GameObject hitObject)
-    {
-        List<Vector3> VertexList = new List<Vector3>();
-        HashSet<Vector3> set = new HashSet<Vector3>();
-
-        // ** 하위 오브젝트를 확인
-        if (hitObject.transform.childCount != 0)
-        {
-            // ** 하위 오브젝트가 존재한다면 모든 하위오브젝트를 확인
-            for (int i = 0; i < hitObject.transform.childCount; ++i)
-            {
-                // ** 모든 하위 오브젝트의 버텍스를 받아옴.
-                set = new HashSet<Vector3>(VertexList);
-
-                // ** 중복원소 제거후 삽입
-                set.UnionWith(GetVertex(hitObject.transform.GetChild(i).gameObject));
-            }
-        }
-
-        // ** 현재 오브젝트의 MeshFilter를 확인.
-        MeshFilter meshFilter = hitObject.transform.gameObject.GetComponent<MeshFilter>();
-
-        // ** MeshFilter가 없다면 참조할 버텍스가 없으므로 종료
-        // ** 모든 버텍스를 참조
-        Vector3[] verticesPoint = meshFilter.mesh.vertices;
-
-        // ** hit 된 오브젝트의 모든 버텍스 확인.
-        for (int i = 0; i < verticesPoint.Length; ++i)
-        {
-            // ** 버텍스를 확인하는 조건.
-            if (!VertexList.Contains(verticesPoint[i])
-                && verticesPoint[i].y < transform.position.y + 0.05f
-                && transform.position.y < verticesPoint[i].y + 0.05f)
-            {
-                // ** 버텍스의 y 좌표를 ground의 Y 좌표보다 조금 높은 위치(0.1f)로 변경
-                verticesPoint[i].y = 0.1f;
-                // ** 해당 버텍스 추가
-                VertexList.Add(verticesPoint[i]);
-            }
-        }
-
-        return VertexList;
-    }
-
-
-    private List<Node> AStar(Node StartNode, Node EndNode)
-    {
-        Node compare;
-        int Count = 0;
-
-        float OldDistance = float.MaxValue;
-
-        while (OpenList.Count != 0)
-        {
-            if (++Count > 100)
-                break;
-
-            int index = 0;
-
-            for (int i = 0; i < Vertices.Count; ++i)
-            {
-                if (index == i)
-                    continue;
-
-                float Distance = Vector3.Distance(OpenList[index].Position, Vertices[i].Position);
-
-                if (Distance < OldDistance && !OpenList.Contains(OpenList[index]))
-                {
-                    OldDistance = Distance;
-                    Node Nextnode = Vertices[i];
-                    //Nextnode.Cost = MainNode.Cost + Distance;
-                    index = i;
-                }
-            }
-
-            if (!BestList.Contains(OpenList[index]))
-            {
-                Node OldNode = OpenList[OpenList.Count - 1];
-                Node currentNode = Vertices[index];
-
-                RaycastHit Hit;
-
-                if (Physics.Raycast(OldNode.Position, currentNode.Position, out Hit, OldDistance))
-                {
-                    Debug.Log(Hit.transform.position);
-
-                    if (Hit.transform.tag != "Node")
-                    {
-
-                    }
-                    else
-                    {
-
-                    }
-                }
-
-                if (Vector3.Distance(EndNode.Position, currentNode.Position) < Vector3.Distance(EndNode.Position, OldNode.Position))
-                {
-
-                }
-                else
-                {
-                    break;
-                }
-
-                OpenList.Remove(Vertices[index]);
-                //best.Add(index);
-            }
-        }
-
-        return new List<Node>();
-    }
-
 
     private void FixedUpdate()
     {
@@ -330,31 +325,24 @@ public class EnemyController : MonoBehaviour
                     Mathf.Sin(f * Mathf.Deg2Rad), 0.0f, Mathf.Cos(f * Mathf.Deg2Rad)) * 2.5f,
                 Color.red);
         }
+
+        ConnectPoints(OpenList, Color.black);
+        ConnectPoints(BestList, Color.red);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        move = false;
-        
+        //move = false;
+
         /*
         if (Target.transform.name == other.transform.name)
             Target = Target.Next;
          */
     }
 
-
-    void Outpot(Matrix4x4 _m)
+    private void ConnectPoints(List<Node> points, Color color)
     {
-        Debug.Log("==============================================");
-        Debug.Log(_m.m00 + ", " + _m.m01 + ", " + _m.m02 + ", " + _m.m03);
-        Debug.Log(_m.m10 + ", " + _m.m11 + ", " + _m.m12 + ", " + _m.m13);
-        Debug.Log(_m.m20 + ", " + _m.m21 + ", " + _m.m22 + ", " + _m.m23);
-        Debug.Log(_m.m30 + ", " + _m.m31 + ", " + _m.m32 + ", " + _m.m33);
-    }
-
-    private void MyTest()
-    {
-        for (int i = 0; i < BestList.Count - 1; ++i)
-            Debug.DrawLine(BestList[i].Position, BestList[i + 1].Position, Color.black);
+        for (int i = 0; i < points.Count - 1; ++i)
+            Debug.DrawLine(points[i].Position, points[i + 1].Position, color);
     }
 }
