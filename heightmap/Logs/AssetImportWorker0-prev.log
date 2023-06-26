@@ -15,7 +15,7 @@ C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56861
+58604
 Successfully changed project path to: C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/user/Desktop/answn4450/Unity3D/heightmap
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12384] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 1061634753 [EditorId] 1061634753 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30540] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 4132992527 [EditorId] 4132992527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12384] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 1061634753 [EditorId] 1061634753 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30540] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 4132992527 [EditorId] 4132992527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 78.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003209 seconds.
+Registered in 0.003238 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.494 seconds
+- Completed reload, in  0.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (494ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (358ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (222ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadAttributes (100ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,36 +105,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007096 seconds.
+Registered in 0.007775 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
+- Completed reload, in  0.953 seconds
 Domain Reload Profiling:
-	ReloadAssembly (995ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (384ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (185ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (171ms)
 				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,81 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 3588.
-Memory consumption went from 136.7 MB to 134.8 MB.
-Total: 3.418800 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.165700 ms MarkObjects: 2.596400 ms  DeleteObjects: 0.376000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006569 seconds.
-Begin MonoManager ReloadAssembly
-IOException: Sharing violation on path C:\Users\user\Desktop\answn4450\Unity3D\heightmap\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
-  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
-  at UnityEditor.SettingsManagement.PackageSettingsRepository.Save () [0x00070] in C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\PackageSettingsRepository.cs:144 
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <6e08e61cfda04255b3972ba7f0515fae>:0 
-
-(Filename: Library/PackageCache/com.unity.settings-manager@1.0.3/Editor/PackageSettingsRepository.cs Line: 144)
-
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
-Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (307ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 3596.
-Memory consumption went from 141.9 MB to 140.1 MB.
-Total: 3.412300 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.672300 ms  DeleteObjects: 0.367100 ms)
+Memory consumption went from 136.6 MB to 134.8 MB.
+Total: 3.409800 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.418200 ms  DeleteObjects: 0.565000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -232,165 +163,421 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8571.534956 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(b8deab50b39c72948b3a56013ff5464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b8deab50b39c72948b3a56013ff5464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5e6f7427406baf79587c9e0cdf8df4') in 0.130054 seconds 
+  Time since last request: 12926.338560 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground/Source Assets/Cliff_Mossy_E_BaseColor.tif
+  artifactKey: Guid(13ec2ae26109ecb4f91cd9bec9ffa408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground/Source Assets/Cliff_Mossy_E_BaseColor.tif using Guid(13ec2ae26109ecb4f91cd9bec9ffa408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c69de87212313d602f4af2965432e1') in 0.083904 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.722398 seconds.
-  path: Assets/99.Resource
-  artifactKey: Guid(8c736ad0ebc7d9143a23095facb0fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource using Guid(8c736ad0ebc7d9143a23095facb0fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b798932d4afb941e689adda08436f') in 0.007460 seconds 
+  Time since last request: 0.136276 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground/Source Assets/Cliff_Mossy_E_Normal.tif
+  artifactKey: Guid(6a40a13a0056f6649bcce95734364b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground/Source Assets/Cliff_Mossy_E_Normal.tif using Guid(6a40a13a0056f6649bcce95734364b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d97f3d09f27ad20c2182d465f05d97') in 0.038439 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.221774 seconds.
-  path: Assets/2D Casual UI
-  artifactKey: Guid(eea07922793fb45d98e734985805ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Casual UI using Guid(eea07922793fb45d98e734985805ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bd71ece2bec05bd8f651f4268927a2') in 0.008342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.552873 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(58a1a92152d2bee4ab5ad8a8966ee287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(58a1a92152d2bee4ab5ad8a8966ee287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0837a9fbc6f77202af2bf2701236349') in 0.007126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.378893 seconds.
-  path: Assets/Agarkova_CG
-  artifactKey: Guid(935756054aa05c2429db3fbf844a6877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Agarkova_CG using Guid(935756054aa05c2429db3fbf844a6877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e8ff08ad98ad7c11787abb106a43d') in 0.007702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.349104 seconds.
-  path: Assets/150 Fantasy Skill Icons
-  artifactKey: Guid(bfae0d8dca86044f8a24bf75beb4e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/150 Fantasy Skill Icons using Guid(bfae0d8dca86044f8a24bf75beb4e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6564c97c9e580663017c98e866eec3') in 0.007463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.192611 seconds.
-  path: Assets/Heightmap
-  artifactKey: Guid(aff9562c10ae5c34b9e193146b78100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heightmap using Guid(aff9562c10ae5c34b9e193146b78100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3cac308051c145372fcbb8bb4b711b') in 0.007382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.683211 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(26759d035a0536a47a15853abc96e922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(26759d035a0536a47a15853abc96e922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4285307974ec0021d2e1c697b1351783') in 0.007519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.401899 seconds.
-  path: Assets/pixel horror low poly train exploration expansion Pack
-  artifactKey: Guid(d975c4c2ee03087479ceb89401ea8bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pixel horror low poly train exploration expansion Pack using Guid(d975c4c2ee03087479ceb89401ea8bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cbc55dde5ed113e3e9cb2b51e19d7a') in 0.007460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.384025 seconds.
-  path: Assets/Joystick
-  artifactKey: Guid(38ac2c566afa0e04c87e8aafe7e4b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick using Guid(38ac2c566afa0e04c87e8aafe7e4b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e54fb86eee48f4216c4da3c9f7689') in 0.007744 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007979 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (256ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 3641.
-Memory consumption went from 146.5 MB to 144.7 MB.
-Total: 3.172200 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.181800 ms MarkObjects: 2.401300 ms  DeleteObjects: 0.346200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.552758 seconds.
-  path: Assets/Terrain
-  artifactKey: Guid(493bedf96bae9c64792a00ddfd034743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain using Guid(493bedf96bae9c64792a00ddfd034743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7681d749e75895a25c33dea97136c4') in 0.012591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.742810 seconds.
-  path: Assets/HitPointController.cs
-  artifactKey: Guid(f121b059dad539b46923e8c358a2f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HitPointController.cs using Guid(f121b059dad539b46923e8c358a2f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8e7b8bcada34b05ad2e42f4e958c4e') in 0.013643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.735077 seconds.
-  path: Assets/EnemyController.cs
-  artifactKey: Guid(2577cb57ca80b904bad69a2e45f86feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemyController.cs using Guid(2577cb57ca80b904bad69a2e45f86feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7d00ffc6737d6f227341dcd18ac727') in 0.008245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.303634 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.008076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.691061 seconds.
+  Time since last request: 734.125651 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6c1723b8623c637f53a9c11b131de6') in 0.008323 seconds 
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bc12e6cc0f49bd8f444984356c9a89') in 0.001922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.692705 seconds.
-  path: Assets/Scenes/Teamplay.unity
-  artifactKey: Guid(0f7281e33f09c864b98ae2b0784ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teamplay.unity using Guid(0f7281e33f09c864b98ae2b0784ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabe895af5a428ecc6d02c3e250277c5') in 0.008157 seconds 
+  Time since last request: 104.887283 seconds.
+  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/1-Battle-Roar.png
+  artifactKey: Guid(4c2e103ee53f2497b8222fa8db303c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/1-Battle-Roar.png using Guid(4c2e103ee53f2497b8222fa8db303c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dc27fef15702798125e4595fcdf857') in 0.036362 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2377.369828 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068a37f459c0fc8b7c0ef076c19dd06b') in 0.007498 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/7-Apply-Bleed.png
+  artifactKey: Guid(15795860a9d324250823686a664034a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/7-Apply-Bleed.png using Guid(15795860a9d324250823686a664034a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe7991185d67d28b850ea9144f207dc') in 0.019356 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.978446 seconds.
-  path: Assets/Scenes/Teamplay.unity
-  artifactKey: Guid(0f7281e33f09c864b98ae2b0784ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teamplay.unity using Guid(0f7281e33f09c864b98ae2b0784ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca548c3bfad9ac4ca4e4ceb1801efb0') in 0.008371 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/3-Aggression.png
+  artifactKey: Guid(d9c542b9190b24dafb2737a0b0cf789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/3-Aggression.png using Guid(d9c542b9190b24dafb2737a0b0cf789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ece856720dcb20ce369e9a586e309ba') in 0.025738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/4-Apply-Poison.png
+  artifactKey: Guid(c8de558d1809a431b853143ea7327b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/4-Apply-Poison.png using Guid(c8de558d1809a431b853143ea7327b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5527043cf7ae60f83e197e88080bb3b') in 0.017267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291860 seconds.
+  path: Assets/Scenes/NewBrush.brush
+  artifactKey: Guid(1d783d6994329e14aa1f980b280968fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBrush.brush using Guid(1d783d6994329e14aa1f980b280968fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9d4825d7f18dfc0ddc4ac4989c27e3') in 0.018125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.233365 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/air vent .prefab
+  artifactKey: Guid(00d7e76322147c6419064a86a0de7db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/air vent .prefab using Guid(00d7e76322147c6419064a86a0de7db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5394d8a308edfbfbd7f31054148b0c') in 0.045685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/air vent holder .prefab
+  artifactKey: Guid(37695996aea35454782faf259ba137a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/air vent holder .prefab using Guid(37695996aea35454782faf259ba137a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac4d6c41d827b45a1e9e968821d48b7') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/barrel.prefab
+  artifactKey: Guid(928d17568bb6b524a8acfc39c24bbe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/barrel.prefab using Guid(928d17568bb6b524a8acfc39c24bbe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38379cb2d7700a486cd7dbfae67664f') in 0.017557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.825654 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/big tile  Cement old .prefab
+  artifactKey: Guid(206280526df5c0946bd58bc44e7f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/big tile  Cement old .prefab using Guid(206280526df5c0946bd58bc44e7f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a01a498c9ddbfeeafe27088e7902c3') in 0.011404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/big tile old Concrete tile.001.prefab
+  artifactKey: Guid(2323eae7b7a6870459d9f11079c9c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/big tile old Concrete tile.001.prefab using Guid(2323eae7b7a6870459d9f11079c9c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6521ba9002fd5a383975cd8ca57e5c') in 0.011477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039988 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/bunker Door.prefab
+  artifactKey: Guid(03913b87a12fe8a40814fe4411739dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/bunker Door.prefab using Guid(03913b87a12fe8a40814fe4411739dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd575036c8d9f98eea024ab343d135270') in 0.016458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/bunker Door entry way  .prefab
+  artifactKey: Guid(2712a0d9798f0dc4abe80cae353604a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Doors and  extras/bunker Door entry way  .prefab using Guid(2712a0d9798f0dc4abe80cae353604a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304e1610eaf11434b749c657a5500791') in 0.013578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.067333 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/cardBord flat.prefab
+  artifactKey: Guid(cd032070259fa6b4790779394ea16481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/cardBord flat.prefab using Guid(cd032070259fa6b4790779394ea16481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad7ccb98d2de98533aa1658f2c3be1e') in 0.014863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051601 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/clip boord.prefab
+  artifactKey: Guid(7b3f8f8792befe44d86765c74e46c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/clip boord.prefab using Guid(7b3f8f8792befe44d86765c74e46c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fccf947e539cd162de92dd504fcc8a') in 0.017084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048345 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/column.prefab
+  artifactKey: Guid(640c5379f99ccc34e8680bf63c211c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/column.prefab using Guid(640c5379f99ccc34e8680bf63c211c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570b03668ae6e6ddf19c95baf485349b') in 0.011419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.288144 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Concrete  bunker wall .001.prefab
+  artifactKey: Guid(9f83799300a277d459f93c6434f4083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Concrete  bunker wall .001.prefab using Guid(9f83799300a277d459f93c6434f4083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb08f82ca250516ea7cbc45f90639f9') in 0.012512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010191 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Concrete  old wall .prefab
+  artifactKey: Guid(ef26592bee82db74a8ff0cfb0dbbc6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Concrete  old wall .prefab using Guid(ef26592bee82db74a8ff0cfb0dbbc6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b88f11842800e30fc47188967b2d7fa') in 0.017562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021145 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile  old wall  .prefab
+  artifactKey: Guid(e5c3fbb29c818ae41a947e6a709077f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile  old wall  .prefab using Guid(e5c3fbb29c818ae41a947e6a709077f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9de017cf5931bfc5cb219d86add100') in 0.016603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020980 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile  old wall  brick .prefab
+  artifactKey: Guid(71209c50a36ac8849a1bfbdd7067e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile  old wall  brick .prefab using Guid(71209c50a36ac8849a1bfbdd7067e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487487feb6816705b0eae45c779a223') in 0.012916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035597 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile wall  old  small .prefab
+  artifactKey: Guid(833de4be290c5ea429a0cc32ad9d5daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/Concrete tile wall  old  small .prefab using Guid(833de4be290c5ea429a0cc32ad9d5daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a71e8b04282800a90ff4c8eab633549') in 0.009870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016206 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx
+  artifactKey: Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx using Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60316d4308cff9147bad2ff385921db5') in 1.033696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .002.prefab
+  artifactKey: Guid(d1278f8822da2cf49b9f3cefe67e0d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .002.prefab using Guid(d1278f8822da2cf49b9f3cefe67e0d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f245aca14b4cbc411e7b5ba11e1501') in 0.013334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/mattress.prefab
+  artifactKey: Guid(784b8abc36802b24c86c54407ecb1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/mattress.prefab using Guid(784b8abc36802b24c86c54407ecb1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22402e7d5efc14497de3a2e3c130d9f') in 0.016050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/lader old .prefab
+  artifactKey: Guid(777e4315027b50243a9fce8466093492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/lader old .prefab using Guid(777e4315027b50243a9fce8466093492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf1141ed40efcbd2935764021405a4') in 0.013353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/door frame.001.prefab
+  artifactKey: Guid(f51d886afaf665f47ae9213c872b826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/door frame.001.prefab using Guid(f51d886afaf665f47ae9213c872b826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9560757266a3945ff91d12f01ebb3f1') in 0.011828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/locker wtth door .001.prefab
+  artifactKey: Guid(d93f74f87879f7f42ab6b7bcba72bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/locker wtth door .001.prefab using Guid(d93f74f87879f7f42ab6b7bcba72bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f86476294893e27c26eadf0986ca2b') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .003.prefab
+  artifactKey: Guid(b3ffedf9171b2d54c82276703cf9d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .003.prefab using Guid(b3ffedf9171b2d54c82276703cf9d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84680b91620ee37819ecf9aa3155453') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/platform big  old .prefab
+  artifactKey: Guid(283a78a7d91684140822b486f9fd8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/platform big  old .prefab using Guid(283a78a7d91684140822b486f9fd8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92444dfa081bc6a76a8de787f02916f') in 0.014140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/player parts/player .prefab
+  artifactKey: Guid(6ba928c4fd8d109478bd89685bb8c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/player parts/player .prefab using Guid(6ba928c4fd8d109478bd89685bb8c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1be735ff1c102b9fc4af5ab32431e7') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_A_02.prefab
+  artifactKey: Guid(d300c554f4589a640a733a84d30422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_A_02.prefab using Guid(d300c554f4589a640a733a84d30422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5b7dc098414f3703683290f5fe1a41') in 0.248523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle 4 way exit .prefab
+  artifactKey: Guid(0dabdf3d6f3200043bb4934cc20b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle 4 way exit .prefab using Guid(0dabdf3d6f3200043bb4934cc20b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19728af70c0292d6a172d9a4e35ee204') in 0.012669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/tiles/platform medum .prefab
+  artifactKey: Guid(66cab669fcd83bf4f88d74a856b82ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/tiles/platform medum .prefab using Guid(66cab669fcd83bf4f88d74a856b82ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a796458542daa2b2f59d5ab1696736') in 0.014180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/pillow .prefab
+  artifactKey: Guid(7eb9fa0e996ab224991bcf8ec82d37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/pillow .prefab using Guid(7eb9fa0e996ab224991bcf8ec82d37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ba5644be289e8e413841f2dcdb7099') in 0.013126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/table.prefab
+  artifactKey: Guid(85c20919b665bfa4c8d72bbd4d0ee2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/table.prefab using Guid(85c20919b665bfa4c8d72bbd4d0ee2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0d3c5c99724858f771945852444f54') in 0.013849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/crate  .prefab
+  artifactKey: Guid(bf7357a41fa5d774db2702983585e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/crate  .prefab using Guid(bf7357a41fa5d774db2702983585e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6de375fe97ddefa7becc055f10c6a59') in 0.014567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/mattress.prefab
+  artifactKey: Guid(62788a6d796fdb44c8913affb25b8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/mattress.prefab using Guid(62788a6d796fdb44c8913affb25b8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069e71ec18aaf445f47f0f36ffa3f88') in 0.012510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle end  brick.prefab
+  artifactKey: Guid(771b97575987733488a70b32236fdef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle end  brick.prefab using Guid(771b97575987733488a70b32236fdef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954fc32a1bdc741347b3153893227b23') in 0.013680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/track  long.004.prefab
+  artifactKey: Guid(05908dd51464e2949a1f293b8e18f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/track  long.004.prefab using Guid(05908dd51464e2949a1f293b8e18f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975745f26f2f92308a7d2270934266ef') in 0.014017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/sleeping bag .prefab
+  artifactKey: Guid(385e7536970e2254b9dac1fe5defebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/sleeping bag .prefab using Guid(385e7536970e2254b9dac1fe5defebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4193f8c25e67a615c3b9b577e6d0fa5d') in 0.016675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Text.prefab
+  artifactKey: Guid(cde78147571be4f4bbb5fd4666a26af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Text.prefab using Guid(cde78147571be4f4bbb5fd4666a26af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a4165e92da9a1e15329cdb3f77027') in 0.014197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/train.prefab
+  artifactKey: Guid(5d8d9bbbc3a5f304197a592fbc08a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/train.prefab using Guid(5d8d9bbbc3a5f304197a592fbc08a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31824ac9a1ceabb206c923ffacc9994e') in 0.012620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.prefab
+  artifactKey: Guid(17896e9e47bbf1748bf52facb83a48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.prefab using Guid(17896e9e47bbf1748bf52facb83a48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6785f017b5effee3c6462a273ff05089') in 0.023968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .001.prefab
+  artifactKey: Guid(c23ce3d1e7b22b6458f38a0d9fe8caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/medum pipe .001.prefab using Guid(c23ce3d1e7b22b6458f38a0d9fe8caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7e0e634b5371003671ecc26bd24f5') in 0.010782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle end Concrete bunker .prefab
+  artifactKey: Guid(ccaea1a4587c4044ba3cdd77de30747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle end Concrete bunker .prefab using Guid(ccaea1a4587c4044ba3cdd77de30747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd176bb6900ccb4d3846dee7543b67185') in 0.012478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunle end  brick.prefab
+  artifactKey: Guid(b1d0704cc49ea724ab70a38835b98575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunle end  brick.prefab using Guid(b1d0704cc49ea724ab70a38835b98575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a49e3d785c51a4702a2d9d429ddf644') in 0.014470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/knob 2.prefab
+  artifactKey: Guid(b0a2d126b6c299a49a305814e30102a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/knob 2.prefab using Guid(b0a2d126b6c299a49a305814e30102a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312c80e2500b5f1a01a910b9f36e474b') in 0.013140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunle old.prefab
+  artifactKey: Guid(ca544c62d13fb034b8efc780c2204ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunle old.prefab using Guid(ca544c62d13fb034b8efc780c2204ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3745e2b2bc4297488dd0277e9ca31c6d') in 0.013759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/filleing cabnet prop.prefab
+  artifactKey: Guid(b701a848d44ed4943beb2e6e52cb4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/filleing cabnet prop.prefab using Guid(b701a848d44ed4943beb2e6e52cb4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e8fd858e602434572e93a04d339ba9') in 0.013738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_02.fbx
+  artifactKey: Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_02.fbx using Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf36339e8ce1014c808bf2eea70a5df') in 0.042846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle 3 way exit .prefab
+  artifactKey: Guid(13cab884fe2dd3244aafad8ac4a8a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunle 3 way exit .prefab using Guid(13cab884fe2dd3244aafad8ac4a8a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e793c2ce8f50f4407fc52a4edeb1d43') in 0.015199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/tunle toper  old tiles .prefab
+  artifactKey: Guid(302318413db759b479ab19d3ec72d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/walls/tunle toper  old tiles .prefab using Guid(302318413db759b479ab19d3ec72d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a919811f63eb803c0fcfc0eb36bbf3') in 0.014934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/track .002.prefab
+  artifactKey: Guid(237380f20235129498d948681e3d948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/track .002.prefab using Guid(237380f20235129498d948681e3d948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9466726bf48d9dd7a814be6a043034a2') in 0.016223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/train  Doors.003.prefab
+  artifactKey: Guid(90e165c0b86054c4cac1a41c6e8c0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/train  Doors.003.prefab using Guid(90e165c0b86054c4cac1a41c6e8c0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eced37681779d06dfe584f1a071b26c2') in 0.012609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Metal_Corroded door .prefab
+  artifactKey: Guid(044047381b0c50d4fb51856370485025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/Metal_Corroded door .prefab using Guid(044047381b0c50d4fb51856370485025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da128ad4049c8201d84b2ea58984dd9') in 0.013492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/cushion.prefab
+  artifactKey: Guid(b8a8b421cc7e44b45b2efe2755c2f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/cushion.prefab using Guid(b8a8b421cc7e44b45b2efe2755c2f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f439195af2e21935b7437a790ab5102') in 0.013184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/tiles/extra big tile  Cement old .prefab
+  artifactKey: Guid(8f8a8c4ec0b3cf9418eaba8d2be461ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/tiles/extra big tile  Cement old .prefab using Guid(8f8a8c4ec0b3cf9418eaba8d2be461ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6de4edbc56ec84205a95a1bbc145491') in 0.012704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/extra big tile .001.prefab
+  artifactKey: Guid(bac6140914ed1d64aac0036e0cb6f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/extra big tile .001.prefab using Guid(bac6140914ed1d64aac0036e0cb6f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afda051a1d730624dd1d3ce02a02f0c3') in 0.013171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/knob 2.prefab
+  artifactKey: Guid(458b3f136ff5acf439a090837414312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/Props/knob 2.prefab using Guid(458b3f136ff5acf439a090837414312e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228101b3497a26fb5bcee987dc21633d') in 0.013200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_C_01.prefab
+  artifactKey: Guid(398b156fac7c6f44db09e9ad046c24dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_C_01.prefab using Guid(398b156fac7c6f44db09e9ad046c24dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7c3d7d79fca9c2664263c5b7ae5aba') in 0.036995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/lantern .prefab
+  artifactKey: Guid(310070441205c8f4a9713662b1e493ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/lantern .prefab using Guid(310070441205c8f4a9713662b1e493ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8491a0217141cfbf5896edccadf79f1a') in 0.013284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/PC.prefab
+  artifactKey: Guid(838ec92dd3f451345bad240a7ba3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/PC.prefab using Guid(838ec92dd3f451345bad240a7ba3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e1f78c7ab0d1bf1396c20a69b1ad28') in 0.012836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Models/tunles.fbx
+  artifactKey: Guid(6d768e68585eebc4780fe0c51e085a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Models/tunles.fbx using Guid(6d768e68585eebc4780fe0c51e085a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374fe914e1b7993f341f92aa6ac8dce5') in 0.563701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunnel   small.prefab
+  artifactKey: Guid(47d900fbb20ec894a8d34b5f185066cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/tunnel   small.prefab using Guid(47d900fbb20ec894a8d34b5f185066cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a466b70fbb845e2a279c0819fb907c7c') in 0.020416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunnel   small.prefab
+  artifactKey: Guid(acb152aa1965e8e42a47745b2df47c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunnel   small.prefab using Guid(acb152aa1965e8e42a47745b2df47c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e9e54725480efe9b2c42c8002823e2') in 0.011195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunnel   long.prefab
+  artifactKey: Guid(6244111b781154a42aa6cf19d76a23ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/mesh/tunnel   long.prefab using Guid(6244111b781154a42aa6cf19d76a23ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a50d4bc2bef8d627322d7af06228a8c') in 0.013659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/train.prefab
+  artifactKey: Guid(745c9a688b465f24d8141a6bebfd49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Prefabs/train tunnel and tracks/train.prefab using Guid(745c9a688b465f24d8141a6bebfd49eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe4cecfb131bd4480e05231b67db2f7') in 0.014873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
+  artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30d66468fda8c84edb7d838c457ff23') in 0.555635 seconds 
