@@ -38,6 +38,8 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     // ** 방향값
     private Vector2 Direction;
 
+    float Angle;
+
     // ** Direction * Speed * Time.deltaTime;
     // ** 얼마 만큼 움직여야할지에 대한 값.
     private Vector3 Movement;
@@ -70,6 +72,7 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     {
         // ** BackBoard의 반지름을 구함.
         Radius = BackBoard.rect.width / 2;
+        Angle = 0.0f;
     }
 
     void Update()
@@ -94,39 +97,14 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
         // ** 스틱이 가르키는 방향을 구함.
         Direction = Stick.localPosition.normalized;
 
-        if (Direction.x < 0)
-        {
-            Movement = new Vector3(
-                Direction.x * Speed * Time.deltaTime * Ratio,
-                0f,
-                Direction.y * Speed * Time.deltaTime * Ratio
-                );
-        } 
-        else if (Direction.x > 0)
-        {
-            Movement = new Vector3(
-                Direction.x * Speed * Time.deltaTime * Ratio,
-                0f,
-                Direction.y * Speed * Time.deltaTime * Ratio
-                );
-        }
-        else
-        {
-
-        }
-
-        // ** Target를 움직일 방향과 속도를 구함.
-        if(HorizontalSpace)
+        //Target.transform.rotation = Quaternion.Euler(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg,)
+        if (HorizontalSpace)
         {
             // ** Horizontal Space
             Movement = new Vector3(
              Direction.x * Speed * Time.deltaTime * Ratio,
              0f,
              Direction.y * Speed * Time.deltaTime * Ratio);
-
-            // ** 타겟이 Direction과 같은 방향으을 바라보게함.
-            if (Look)
-                Target.eulerAngles = new Vector3(0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0f);
         }
         else
         {
@@ -136,6 +114,34 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
             Direction.y * Speed * Time.deltaTime * Ratio,
             0f);
         }
+
+        if (Direction.x < 0)
+        {
+            Angle -= 0.5f;
+        } 
+        else if (0 < Direction.x)
+        {
+            Angle += 0.5f;
+        }
+        else
+        {
+
+        }
+
+        // ** 타겟이 Direction과 같은 방향을 바라보게함.
+        if (Look)
+            Target.eulerAngles = new Vector3(0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0f);
+
+        /*
+        Quaternion quaternion = transform.rotation;
+
+        Target.transform.rotation = Quaternion.Lerp(transform.rotation,
+            Quaternion.EulerAngles(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0.0f),
+            Time.deltaTime);
+        */ 
+
+        // ** Target를 움직일 방향과 속도를 구함.
+        
     }
 
 
