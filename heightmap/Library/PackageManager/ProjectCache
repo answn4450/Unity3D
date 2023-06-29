@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: "C:/Users/SGA/Desktop/\uAD6D\uBE44\uAE40\uBB38\uC8FC/unity/Unity3D/heightmap/Packages"
-m_EditorVersion: 2021.3.20f1 (577897200b8b)
+m_EditorVersion: 2021.3.19f1 (c9714fde33b6)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.0.1
   testable: 0
@@ -112,6 +112,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
+    - 2.0.0
     - 2.0.1
     - 2.0.3
     - 2.0.4
@@ -156,7 +157,7 @@ m_ResolvedPackages:
     revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.0.0
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
