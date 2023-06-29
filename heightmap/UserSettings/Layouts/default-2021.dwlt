@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 0
-  controlID: 37834
+  controlID: 3512
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 37835
+  controlID: 3504
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 37815
+  controlID: 3513
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -560,9 +560,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 160.91069, y: 32, z: -52.20106}
+    m_Target: {x: -18.746456, y: -4.184833, z: 28.07688}
     speed: 2
-    m_Value: {x: 0.15999985, y: 17, z: -498}
+    m_Value: {x: -18.746456, y: -4.184833, z: 28.07688}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -609,13 +609,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24956481, y: -0.06964899, z: 0.018003102, w: 0.965692}
+    m_Target: {x: -0.23311885, y: 0.74957347, z: -0.3355531, w: -0.520782}
     speed: 2
-    m_Value: {x: -0.3103263, y: -0.2443749, z: 0.08288616, w: -0.9149405}
+    m_Value: {x: -0.23311715, y: 0.74956805, z: -0.33555067, w: -0.5207782}
   m_Size:
-    m_Target: 178.16058
+    m_Target: 65.25703
     speed: 2
-    m_Value: 24.519936
+    m_Value: 65.25703
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -773,22 +773,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RPG_FPS_game_assets_industrial
+    - Assets/1.Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 54
+  m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RPG_FPS_game_assets_industrial
-  m_LastFoldersGridSize: 54
+  - Assets/1.Scenes
+  m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\SGA\\Desktop\\\uAD6D\uBE44\uAE40\uBB38\uC8FC\\unity\\Unity3D\\heightmap"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 177}
-    m_SelectedIDs: 005d0000
-    m_LastClickedID: 23808
-    m_ExpandedIDs: 000000009a5c00009c5c0000f65c0000a068000000ca9a3b
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: 9a0f0200
+    m_LastClickedID: 135066
+    m_ExpandedIDs: 000000006a0f0200700f0200761c0200302502003225020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,7 +816,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a5c00009c5c0000f65c0000a068000000ca9a3b
+    m_ExpandedIDs: 000000006a0f02006c0f02006e0f0200700f020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -869,7 +869,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 54
+    m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
@@ -933,7 +933,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ae7cffff5ec4ffffc4e7ffffd2efffff32fbffff36fbffff
+      m_ExpandedIDs: 8e4cfcffe0cdfcffae7cffff5ec4ffffc4e7ffffd2efffff32fbffff36fbffff3a130200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
