@@ -15,7 +15,7 @@ C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50450
+50801
 Successfully changed project path to: C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 C:/Users/user/Desktop/answn4450/Unity3D/heightmap
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/user/Desktop/answn4450/Unity3D/heightmap
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28400] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 2018517181 [EditorId] 2018517181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18412] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 872611563 [EditorId] 872611563 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28400] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 2018517181 [EditorId] 2018517181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18412] Host "[IP] 172.30.1.88 [Port] 0 [Flags] 2 [Guid] 872611563 [EditorId] 872611563 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SS90UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 122.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004844 seconds.
+Registered in 0.003593 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1729 ms
-Refreshing native plugins compatible for Editor in 87.57 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 516 ms
+Refreshing native plugins compatible for Editor in 96.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.402 seconds
+- Completed reload, in  1.093 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2402ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2227ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (2024ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (784ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1816ms)
+				InitializePlatformSupportModulesInManaged (573ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008072 seconds.
+Registered in 0.007612 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\answn4450\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 105.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.243 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1233ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1244ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
+			SetupTypeCache (247ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (491ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (497ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 3622.
-Memory consumption went from 142.8 MB to 140.9 MB.
-Total: 4.353900 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.267200 ms MarkObjects: 3.140400 ms  DeleteObjects: 0.565200 ms)
+Memory consumption went from 142.8 MB to 141.0 MB.
+Total: 5.575200 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.278400 ms MarkObjects: 4.292300 ms  DeleteObjects: 0.643600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,49 +167,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3729.479536 seconds.
-  path: Assets/02.Package/Geopipe/Pack01/NYBlock01/Textures/high-detail-materials_road_asphalt.png
-  artifactKey: Guid(38cd74d3890464f45bc38834734688bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/Geopipe/Pack01/NYBlock01/Textures/high-detail-materials_road_asphalt.png using Guid(38cd74d3890464f45bc38834734688bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe171a32e858dd63a3b83fa54dccbd8') in 0.064913 seconds 
+  Time since last request: 6894.530701 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_quadro.prefab
+  artifactKey: Guid(9732a241b7bd0fa4a8e59553d6d8a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_quadro.prefab using Guid(9732a241b7bd0fa4a8e59553d6d8a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c8bbe4761b53857a9de95e3def072e') in 0.120002 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/02.Package/Geopipe/Pack01/NYBlock01/Models/NYBlock01.fbx
-  artifactKey: Guid(d83e12d2b1794e3409e9a5a963c77d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/Geopipe/Pack01/NYBlock01/Models/NYBlock01.fbx using Guid(d83e12d2b1794e3409e9a5a963c77d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c758b9a1b95a65678598c34fd898ae') in 17.516699 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX
+  artifactKey: Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX using Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f70a210a3102729593ff2b5451cb99') in 0.071899 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 612.995905 seconds.
-  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Materials/Cargo_container_v2.mat
-  artifactKey: Guid(616f435b87520d94eb309e65a753d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Materials/Cargo_container_v2.mat using Guid(616f435b87520d94eb309e65a753d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459d77f0f59564d8fac64c387805fd5e') in 0.049936 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.mat
+  artifactKey: Guid(cd2f24c07b1bce24fa0066430da2910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.mat using Guid(cd2f24c07b1bce24fa0066430da2910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52320bd0bfe45ba190e2122df291e0a1') in 0.034480 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 352.159993 seconds.
-  path: Assets/03.Prefabs
-  artifactKey: Guid(10050b395105d0846b96d811d1417261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Prefabs using Guid(10050b395105d0846b96d811d1417261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd92ce037e69e63e6bad5c762ce0c4cc') in 0.008704 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab
+  artifactKey: Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab using Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cb2b803a735ba1780cb0e64807b896') in 0.020154 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.291519 seconds.
-  path: Assets/02.Package/Old Sea Port/mesh/Materials/Log_End_1.mat
-  artifactKey: Guid(2fde9a5f9e18aa3479b78b8878dc6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/Old Sea Port/mesh/Materials/Log_End_1.mat using Guid(2fde9a5f9e18aa3479b78b8878dc6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576ce62eef0cf21d0cc3798b3c8d79ec') in 0.036921 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+  artifactKey: Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat using Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb466608fc8369bdc88fc6ae18b2824c') in 0.020397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 434.905859 seconds.
-  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangars_interior/Source/Materials/Hangars_interior_v1.mat
-  artifactKey: Guid(f062950a552d07742b87e351541559dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangars_interior/Source/Materials/Hangars_interior_v1.mat using Guid(f062950a552d07742b87e351541559dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885d0802690521dc0fcbb05e5c3ca179') in 0.022770 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD3.prefab
+  artifactKey: Guid(85a8f6f8dca77df4e9c05f21b5e8ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD3.prefab using Guid(85a8f6f8dca77df4e9c05f21b5e8ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6252f21aa0e431c08e0a0f6b0e51f8c7') in 0.017306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 658.794823 seconds.
-  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.tga
-  artifactKey: Guid(12a80e926db1d6143b5ff9388f2d4f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v2/Source/Oil_tank_v2.tga using Guid(12a80e926db1d6143b5ff9388f2d4f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64615fae566ea106d2aa7bed29f7d55d') in 0.050023 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.tga
+  artifactKey: Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.tga using Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56feaea4a4c910e87f81c39c06bbe88') in 0.021697 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.136791 seconds.
-  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.FBX
-  artifactKey: Guid(f0722bb0f9795f24eb2e7c82f55738a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.FBX using Guid(f0722bb0f9795f24eb2e7c82f55738a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2c9568448efbfd49864d3516d6954a') in 0.031227 seconds 
+  Time since last request: 1806.908848 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab
+  artifactKey: Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab using Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeee5590bbe05dc98abdb49742be2f4e') in 0.094777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.961460 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.mat
+  artifactKey: Guid(1a087c65608607042accf116f4319d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Source/Wooden_box_v1.mat using Guid(1a087c65608607042accf116f4319d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558cf0b23fce28943404b0e6c53c05d3') in 0.027780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Wooden_box_v1_LD1.prefab
+  artifactKey: Guid(9d1bb44d500a3ad489d3cb3a6900199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Wooden_box_v1_LD1.prefab using Guid(9d1bb44d500a3ad489d3cb3a6900199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0975e30583ab6458728b4f608606a044') in 0.017051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379126 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Wooden_box_v1_LD2.prefab
+  artifactKey: Guid(a50af88759b02d74b8328377b33ab3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Boxes/Wooden_box_v1/Wooden_box_v1_LD2.prefab using Guid(a50af88759b02d74b8328377b33ab3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f4583f0be3aab207ba7e0c914b73e8') in 0.019090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360352 seconds.
+  path: Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Textures/WoodPlanksYellow.png
+  artifactKey: Guid(582cf72c1ff0f0f4795d70db0dbb403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/pixel horror low poly train exploration expansion Pack/Textures/WoodPlanksYellow.png using Guid(582cf72c1ff0f0f4795d70db0dbb403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6546e36e3601ee19e343743e4fb9921e') in 0.025788 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
