@@ -374,6 +374,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/02.Package/IgniteCoders/Simple Water Shader/Info/Scripts/Editor/ReadmeEditor.cs"
 "Assets/99.Resource/Bitgem/StylisedWater/URP/Scripts/Bitgem/Editor/FlagEnumAttributeDrawer.cs"
 "Assets/Visual Design Cafe/ShaderX/Editor/ShaderXImporterEditorWrapper.cs"
 "Assets/Visual Design Cafe/ShaderX/Editor/ShaderXImporterWrapper.cs"

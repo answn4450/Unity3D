@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49948
+50577
 Successfully changed project path to: C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16440] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3191812711 [EditorId] 3191812711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9144] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3478817031 [EditorId] 3478817031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16440] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3191812711 [EditorId] 3191812711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9144] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3478817031 [EditorId] 3478817031 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 70.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003667 seconds.
+Registered in 0.003622 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.450 seconds
+- Completed reload, in  0.448 seconds
 Domain Reload Profiling:
-	ReloadAssembly (451ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (449ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (321ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (326ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (194ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (202ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006650 seconds.
+Registered in 0.006566 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\국비김문주\unity\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\국비김문주\unity\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  0.931 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (828ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (765ms)
 			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (380ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 3620.
-Memory consumption went from 147.2 MB to 145.3 MB.
-Total: 2.398000 ms (FindLiveObjects: 0.166500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.900400 ms  DeleteObjects: 0.256000 ms)
+Memory consumption went from 147.2 MB to 145.4 MB.
+Total: 2.583200 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.062900 ms  DeleteObjects: 0.269000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,70 +163,292 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 571.306313 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx
-  artifactKey: Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx using Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda9159de7b71304b1335d0d906d126') in 0.253925 seconds 
+  Time since last request: 9780.598150 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial
+  artifactKey: Guid(f9723f702b0ae204db594e4ca7c769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial using Guid(f9723f702b0ae204db594e4ca7c769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56edb7a23125c8c8804e62e1f00a57dd') in 0.045238 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 407.837529 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/115-Fire-Wall.png
-  artifactKey: Guid(91312ecae4e2b424ea1980dcdf8022d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/115-Fire-Wall.png using Guid(91312ecae4e2b424ea1980dcdf8022d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab196ff1646e1ce04f269323f8fd2ddc') in 0.056383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/134-Wager.png
-  artifactKey: Guid(339712a98beb54c56992d7be912330ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/134-Wager.png using Guid(339712a98beb54c56992d7be912330ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cb230a5d519df2d6c370869218bc33') in 0.025641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.401983 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx
-  artifactKey: Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx using Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da1ab3b9390b5976388ee02ce0ce6d') in 0.749874 seconds 
+  Time since last request: 1145.503864 seconds.
+  path: Assets/Terrain/38.asset
+  artifactKey: Guid(5dae9df67c6638c4d835240479834eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/38.asset using Guid(5dae9df67c6638c4d835240479834eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'c8e2a70320d581d862a78e5339f997dc') in 0.098701 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Extra.png
-  artifactKey: Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Extra.png using Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e286bb957fa18751e3dbe39fa2e66e15') in 0.015857 seconds 
+  path: Assets/Terrain/44.asset
+  artifactKey: Guid(573e4e896e9911f4982315f30bb299ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/44.asset using Guid(573e4e896e9911f4982315f30bb299ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'ddd44b9ddb3d719281e054630e2942c7') in 0.017179 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Color.png
-  artifactKey: Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Color.png using Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7473cf8df9660683ebeb283305bc0a1') in 0.012397 seconds 
+  path: Assets/Terrain/40.asset
+  artifactKey: Guid(b905a121e61205b43b84a2d2eaf1e124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/40.asset using Guid(b905a121e61205b43b84a2d2eaf1e124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Concrete tile  old wall  brick  1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '734a23bec16efd25b57990d1d4424d4e') in 0.036108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Normal.png
-  artifactKey: Guid(e77eeb540c78bfd49a2429003968c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Normal.png using Guid(e77eeb540c78bfd49a2429003968c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580218354afeb9f3b76c39e813c61719') in 0.015311 seconds 
+  Time since last request: 0.266553 seconds.
+  path: Assets/Terrain/48.asset
+  artifactKey: Guid(a52dfb3271c67964f9d582ea5b0aa87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/48.asset using Guid(a52dfb3271c67964f9d582ea5b0aa87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e80d5b9d8d92602ccff162d77aa61bf') in 0.025420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/53.asset
+  artifactKey: Guid(8c54445d5d2adc243b05a75fb5dbb02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/53.asset using Guid(8c54445d5d2adc243b05a75fb5dbb02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '92adc49a1d563899dc5cf82b3dd439aa') in 0.036942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Terrain/56.asset
+  artifactKey: Guid(80951d2f332395f4caf40b869b229b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/56.asset using Guid(80951d2f332395f4caf40b869b229b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844df194b74d2518988c7ac5a73ec93f') in 0.043889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Terrain/63.asset
+  artifactKey: Guid(4c91b6add228a604597135b79026bddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/63.asset using Guid(4c91b6add228a604597135b79026bddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree air vent  corner  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '6faf9f1e8e13bb369fbb36e2813230de') in 0.030132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/60.asset
+  artifactKey: Guid(d93d2c24bac3c3e41bb88e9914420c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/60.asset using Guid(d93d2c24bac3c3e41bb88e9914420c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c7dba2284e1b265cc67666390bc063') in 0.014764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/61.asset
+  artifactKey: Guid(efc916030cad1a349b574b44d421ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/61.asset using Guid(efc916030cad1a349b574b44d421ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'ab6a749f32ff909a816624c06b5c85a3') in 0.032810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2508.165839 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.FBX
+  artifactKey: Guid(b096242168ee6ce4ca297701abcc3e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.FBX using Guid(b096242168ee6ce4ca297701abcc3e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b887cc19014693da42d0c020836f4943') in 0.235006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Fans/Fan_v1/Source/Fan_v1_1.FBX
+  artifactKey: Guid(cdc7d5a89ab2ba14399bfe1e3a8c369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Fans/Fan_v1/Source/Fan_v1_1.FBX using Guid(cdc7d5a89ab2ba14399bfe1e3a8c369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf23e96cc5f60792a50e97642ace72a8') in 0.036088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Fans/Fan_v1/Fan_v1_1.prefab
+  artifactKey: Guid(8b9108df4cdcc6942b69367085ac52a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Fans/Fan_v1/Fan_v1_1.prefab using Guid(8b9108df4cdcc6942b69367085ac52a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a8119a898db6efb9261e6986f6e292') in 0.024570 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Bark.mat
-  artifactKey: Guid(ec4c06a182765544895a679bdb5c4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Bark.mat using Guid(ec4c06a182765544895a679bdb5c4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20490fe68039bdd258fecb99957e8a1') in 0.046190 seconds 
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Generators/Generator_v1/Source/Generator_v1.FBX
+  artifactKey: Guid(c562f093a8293a149afd50618b46c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Generators/Generator_v1/Source/Generator_v1.FBX using Guid(c562f093a8293a149afd50618b46c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ca3c9b37c2f7742826aceaaea4e02') in 0.018029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Large.fbx
+  artifactKey: Guid(1fecb7808d26bad4883e8ba13d4db2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Large.fbx using Guid(1fecb7808d26bad4883e8ba13d4db2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8da7ba6721e71d5ae6ae37bb2490927') in 0.064349 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat
-  artifactKey: Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat using Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba73165e0ae890409ca81343e25e23') in 0.012477 seconds 
+  path: Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Single.fbx
+  artifactKey: Guid(5d6c5ab2168f4cc45afa300aa04a6bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Single.fbx using Guid(5d6c5ab2168f4cc45afa300aa04a6bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3047b87e0cfcc90a72d0c1bb94887c6') in 0.019632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Extinguish.prefab
+  artifactKey: Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Extinguish.prefab using Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522013572bba2a9dc4218df992118ee2') in 0.246386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab
+  artifactKey: Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab using Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddda85db8f071af5bdc57cae22aed8b') in 0.338105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Small.fbx
+  artifactKey: Guid(034920dfd3e4ecb4b931c766a5b08f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer/Resources/Nature Renderer Templates/Grass Patch Small.fbx using Guid(034920dfd3e4ecb4b931c766a5b08f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133fba8d0474ca3f1c06c5b262d7b1cf') in 0.034045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Dumpsters_v1_garbadge.prefab
+  artifactKey: Guid(721671003a026be4fb47107988831b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Dumpsters_v1_garbadge.prefab using Guid(721671003a026be4fb47107988831b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5646c4c9f4a197d4259e47d032866cf0') in 0.025902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Dumpsters_v1_empty.prefab
+  artifactKey: Guid(94a643c50b8c98e488ed29457fc57cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Dumpsters_v1_empty.prefab using Guid(94a643c50b8c98e488ed29457fc57cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cb74d7019421a52d4f81c074fd555c') in 0.013027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Flesh.prefab
+  artifactKey: Guid(a7034287e2bd6a141ab896f71d0b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/Flesh.prefab using Guid(a7034287e2bd6a141ab896f71d0b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b88e3f4c7d42fe9e9c1e9712db51931') in 0.029863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
+  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c31c37656fc70eae50334e33e2ef4db') in 0.446786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006693 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_1.prefab
+  artifactKey: Guid(5d15be1af1c2b8141b28e3083762c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_1.prefab using Guid(5d15be1af1c2b8141b28e3083762c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732cfc11e034a5b3df0ee7654b5fa5b7') in 0.028085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_5.prefab
+  artifactKey: Guid(412846a2d7421b44686f3e98bc0bee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_5.prefab using Guid(412846a2d7421b44686f3e98bc0bee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51defe3072c54fdae4d485114824456a') in 0.013994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_E1.prefab
+  artifactKey: Guid(36d2b954b1a1d8847b89eb2eed69a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_E1.prefab using Guid(36d2b954b1a1d8847b89eb2eed69a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0bdf168b13a21f151f04c0d0536f0e') in 0.012889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_1.prefab
+  artifactKey: Guid(dd9a03a16f506fc4f8425ffe0ece5663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_1.prefab using Guid(dd9a03a16f506fc4f8425ffe0ece5663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d6620237e5c5b8813ce35ef1273b72') in 0.017089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_2.prefab
+  artifactKey: Guid(dc81d7924db84a842b09a48c44f3cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_2.prefab using Guid(dc81d7924db84a842b09a48c44f3cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca136c2bbe6e40534284d19bf922ecdf') in 0.013479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_S2.prefab
+  artifactKey: Guid(1ccb1d3d3e429bb4bab387f3e489bfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge1_S2.prefab using Guid(1ccb1d3d3e429bb4bab387f3e489bfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98b7cf2fb5b3ec2cf8b8901ff5f2911') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_E1.prefab
+  artifactKey: Guid(3e1f6194803867947a1f1735115b71f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge2_E1.prefab using Guid(3e1f6194803867947a1f1735115b71f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0929962676610cfa14d3bc70607d979b') in 0.012031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_4.prefab
+  artifactKey: Guid(7402b36fca4ea37439099bbe3a32a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_4.prefab using Guid(7402b36fca4ea37439099bbe3a32a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b446a2f1d28dd0996ccb65b5cd466618') in 0.018228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_5.prefab
+  artifactKey: Guid(084cdce018b384f4fb09fccbec686b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_5.prefab using Guid(084cdce018b384f4fb09fccbec686b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90726d65854eb2fdcb45ef087c7bbbfa') in 0.012578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_B1.prefab
+  artifactKey: Guid(538c7442505a3eb428783b7b7d8deb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_B1.prefab using Guid(538c7442505a3eb428783b7b7d8deb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42103f37dc08a3449f5b48e09e787ab') in 0.010516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing2_1.prefab
+  artifactKey: Guid(164dfab8c233b104aa94b7e4ece709bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing2_1.prefab using Guid(164dfab8c233b104aa94b7e4ece709bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398ea36476018b9b33ebbe7e7aaba60d') in 0.017476 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Color.png
-  artifactKey: Guid(85a29d61543e03447acfbd4eb59ff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Color.png using Guid(85a29d61543e03447acfbd4eb59ff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2affe8e7a568d1f594598be4ab27975') in 0.017433 seconds 
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_2.prefab
+  artifactKey: Guid(7f409d7bb185b2c46aa2627e9e9b9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_2.prefab using Guid(7f409d7bb185b2c46aa2627e9e9b9e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d952823f087ef5314eccbd333d230fb') in 0.011598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Branches.mat
-  artifactKey: Guid(6ed8d863fa4e4ee4db27ac197ce98d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Branches.mat using Guid(6ed8d863fa4e4ee4db27ac197ce98d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b08d6121f8a5b23269fd3dc4e2db57') in 0.020059 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_3.prefab
+  artifactKey: Guid(3b926e47d5b5b124788b6980b131d1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_3.prefab using Guid(3b926e47d5b5b124788b6980b131d1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f1134290133cf171908d1b58accbbe') in 0.013880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_E1.prefab
+  artifactKey: Guid(2ed328167840ef4438d4467268485b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_E1.prefab using Guid(2ed328167840ef4438d4467268485b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9a0a86fc6f038f5d25a9e57e5a3549') in 0.011753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_support3_v.prefab
+  artifactKey: Guid(2e8b342f14637354d8ecc6a140cbfa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_support3_v.prefab using Guid(2e8b342f14637354d8ecc6a140cbfa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19941618ab5db5506f6e4dec292b147c') in 0.017566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing1_3.prefab
+  artifactKey: Guid(4474dbda0cf7d4b47afeec3ba32654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing1_3.prefab using Guid(4474dbda0cf7d4b47afeec3ba32654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd67d61296030d1195107cff583b2878') in 0.013759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_S2.prefab
+  artifactKey: Guid(32cb33a7209c53f44ac2277d0d18e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_S2.prefab using Guid(32cb33a7209c53f44ac2277d0d18e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b37b62ed2b02f212f6d7a83f86ed53d') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_bridge3.FBX
+  artifactKey: Guid(684dcf236df67f24286c480a02c710ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_bridge3.FBX using Guid(684dcf236df67f24286c480a02c710ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad5ad1847b297e2378fbd94b7f96cda') in 0.067707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_1.prefab
+  artifactKey: Guid(762c2bd180c2b94458f51f6b8bd70397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_bridge3_1.prefab using Guid(762c2bd180c2b94458f51f6b8bd70397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c8694d718377e984a93b692f4eb6a2') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing3_1.prefab
+  artifactKey: Guid(2e7cac4837b836f4880c002a41dc528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Support_set_v1_railing3_1.prefab using Guid(2e7cac4837b836f4880c002a41dc528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa702d2477bf3c53971c356450479de9') in 0.013863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_railing1.FBX
+  artifactKey: Guid(87d86b434b6f1c84bb9e9cfb80412fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_railing1.FBX using Guid(87d86b434b6f1c84bb9e9cfb80412fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f81ef7bc478d0b9fde94637ed0279') in 0.028083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_railing2.FBX
+  artifactKey: Guid(92137fd15664a9e4c9cf3e319be9093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Other_props/Support_set/Support_set_v1/Source/Support_set_v1_railing2.FBX using Guid(92137fd15664a9e4c9cf3e319be9093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa9876ffa87125bcf44b68f80f3f344') in 0.026062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.598495 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab
+  artifactKey: Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab using Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226a8ebb1bc55bfccfc66ed246d2e8bf') in 0.402854 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49948
+50577
 Successfully changed project path to: C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/국비김문주/unity/Unity3D/heightmap
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19008] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3609692169 [EditorId] 3609692169 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6056] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1511301270 [EditorId] 1511301270 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19008] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3609692169 [EditorId] 3609692169 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6056] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1511301270 [EditorId] 1511301270 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 69.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,91 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003603 seconds.
+Registered in 0.003622 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.454 seconds
+- Completed reload, in  0.437 seconds
 Domain Reload Profiling:
-	ReloadAssembly (455ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (437ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (330ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (206ms)
+			SetupLoadedEditorAssemblies (190ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006647 seconds.
+Registered in 0.006271 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\국비김문주\unity\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\국비김문주\unity\Unity3D\heightmap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  0.919 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (864ms)
+		EndReloadAssembly (757ms)
 			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (410ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-database is locked
-database is locked
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 3620.
-Memory consumption went from 147.3 MB to 145.5 MB.
-Total: 2.411700 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.885700 ms  DeleteObjects: 0.277900 ms)
+Memory consumption went from 147.2 MB to 145.4 MB.
+Total: 2.402600 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.869000 ms  DeleteObjects: 0.282000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,142 +163,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 571.441741 seconds.
+  Time since last request: 9187.979229 seconds.
   path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
   artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad7102a5ce3b75886047070ec9ad770') in 0.119704 seconds 
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b726c5ba57c6ac75cdc38f81281ee76a') in 0.140122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 368.089986 seconds.
-  path: Assets/02.Package/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangars_interior/Source/Materials/Hangars_interior_v1.mat
-  artifactKey: Guid(f062950a552d07742b87e351541559dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangars_interior/Source/Materials/Hangars_interior_v1.mat using Guid(f062950a552d07742b87e351541559dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb0fd8c059b278918e61d4cc2e59c43') in 0.065805 seconds 
+  Time since last request: 49.867635 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD0.mat
+  artifactKey: Guid(ecbc095465bcd0948b9ae5c6a7504ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD0.mat using Guid(ecbc095465bcd0948b9ae5c6a7504ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffd8102a0efdb42c6dcf4d82e158713') in 0.058141 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.674479 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/28-Electric-Wave.png
-  artifactKey: Guid(07aa89d2416874192aa53a2e6356a068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/28-Electric-Wave.png using Guid(07aa89d2416874192aa53a2e6356a068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e007218a95f577a16ff1f77de6ea7f4') in 0.072756 seconds 
+  Time since last request: 338.275444 seconds.
+  path: Assets/02.Package/Old Sea Port/prefabs/Materials/maple_leaves__BigTree_leaves_png.mat
+  artifactKey: Guid(65857fcb087857c43b1183c4a13dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/prefabs/Materials/maple_leaves__BigTree_leaves_png.mat using Guid(65857fcb087857c43b1183c4a13dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef9255da5a164e4eb30a4e65229b55b') in 0.017531 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.412863 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
-  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca66f5f032c41d345b109ceb89fac0') in 0.469101 seconds 
+  Time since last request: 0.885233 seconds.
+  path: Assets/02.Package/Geopipe/Pack01/NYBlock01/Materials/tree0treet040100010000000110110100010110100100110en.mat
+  artifactKey: Guid(c2a14d2bf3776e446ba4aa085c7e4a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Geopipe/Pack01/NYBlock01/Materials/tree0treet040100010000000110110100010110100100110en.mat using Guid(c2a14d2bf3776e446ba4aa085c7e4a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8848d97a61dc5b9a7a2a77ef5b02ca24') in 0.018984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Subsurface.png
-  artifactKey: Guid(69b720bc483f66243adc0e2c777cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Subsurface.png using Guid(69b720bc483f66243adc0e2c777cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4197f3d2656510873965da5142fc33') in 0.012028 seconds 
+  Time since last request: 0.158671 seconds.
+  path: Assets/02.Package/Geopipe/Pack01/NYBlock01/Materials/tree1treet040100010000000110110100010110100100110en.mat
+  artifactKey: Guid(c5a49a49714739b45bfc4484d2dde6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Geopipe/Pack01/NYBlock01/Materials/tree1treet040100010000000110110100010110100100110en.mat using Guid(c5a49a49714739b45bfc4484d2dde6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4485f9c190b91ac82865e6c98704c174') in 0.018689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Cap.mat
-  artifactKey: Guid(792a237589906584cab08fca5ee836de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Cap.mat using Guid(792a237589906584cab08fca5ee836de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8d063a34e7254fcda9c68937b372f') in 0.010523 seconds 
+  Time since last request: 203.156004 seconds.
+  path: Assets/99.Resource/Bitgem/StylisedWater/URP/Examples/StylisedWaterProfile.asset
+  artifactKey: Guid(05d75389c271387408f4f25b616b2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/Bitgem/StylisedWater/URP/Examples/StylisedWaterProfile.asset using Guid(05d75389c271387408f4f25b616b2aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ed6ef579da9038b98d3ccb9fb05efb') in 0.009331 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Extra.png
-  artifactKey: Guid(21b32960189125946817a5a98817c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Extra.png using Guid(21b32960189125946817a5a98817c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94ba8bb06f08d454d4090ab9fcdbdf1') in 0.011732 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
+  artifactKey: Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial using Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6b2f087b6011dc4f0777b51033258b') in 0.014994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab
+  artifactKey: Guid(b3310980331fa134d82770127f640471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Package/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab using Guid(b3310980331fa134d82770127f640471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cb66c4919124c88d69cff946f08cb') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.275009 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx
+  artifactKey: Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx using Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17aca274f9162faf14255a60b9cf7ca') in 0.080832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 451.322578 seconds.
+  path: Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-02.mat
+  artifactKey: Guid(fb659c98d6ac4db41b88596ff2c4e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-02.mat using Guid(fb659c98d6ac4db41b88596ff2c4e2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140f34de252e339cd275767c550fd8c7') in 0.076431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 514.734953 seconds.
+  path: Assets/Terrain/37.asset
+  artifactKey: Guid(2b8a8f6d40fda404faa2797e486e9df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/37.asset using Guid(2b8a8f6d40fda404faa2797e486e9df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '4845be4c2762cfc1f8da2a142f2963ab') in 0.045290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/45.asset
+  artifactKey: Guid(20f980ea67e876d408650528ee6782ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/45.asset using Guid(20f980ea67e876d408650528ee6782ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '879e09e3ad04f1c02e587ae372966abc') in 0.043524 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Billboard.mat
-  artifactKey: Guid(807b0ad96d574a1469ca70ba065258a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Materials/Conifer_Billboard.mat using Guid(807b0ad96d574a1469ca70ba065258a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ad2bb2dd042f8a4c6c49ce95aca966') in 0.017100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Normal.png
-  artifactKey: Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Normal.png using Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa111b00d3006afcfbe3e53448a39b60') in 0.013984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Subsurface.png
-  artifactKey: Guid(b3110108144cfd04bb60590ac93e60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Subsurface.png using Guid(b3110108144cfd04bb60590ac93e60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dc07adc59158663e27033ad87702eb') in 0.011886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat
-  artifactKey: Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat using Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6386a55851558100275e306024b24818') in 0.315552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat
-  artifactKey: Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat using Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be5a9e315256d47a4cab9840ad8821f') in 0.015758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat
-  artifactKey: Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat using Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb12a5a2f2825b8071fc52cf46720d32') in 0.016422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 279.634217 seconds.
-  path: Assets/02.Package/Geopipe/Pack01/NYBlock01/NYBlock01.prefab
-  artifactKey: Guid(1cd0e95b6cdedf3468ff544424b36f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/Geopipe/Pack01/NYBlock01/NYBlock01.prefab using Guid(1cd0e95b6cdedf3468ff544424b36f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33895f85840db513af0e6cfb056ca7b5') in 1.572846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 655.181354 seconds.
-  path: Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-01.mat
-  artifactKey: Guid(16ca5feb16ef2d744852096378401523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-01.mat using Guid(16ca5feb16ef2d744852096378401523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8627246c281d461b50f4541172ffbe') in 0.032315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-03.mat
-  artifactKey: Guid(008541be8ad8b3f42a5318e1c4a73d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Bitgem/StylisedWater/URP/Materials/example-water-03.mat using Guid(008541be8ad8b3f42a5318e1c4a73d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf48790edd2c40bb97da0dd81978246') in 0.015638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 608.981209 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/93-Hailstrom.png
-  artifactKey: Guid(8f78f97a2d8e7498388d20b064d09528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/93-Hailstrom.png using Guid(8f78f97a2d8e7498388d20b064d09528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a32b4f44e9fe618740f4bc851c615') in 0.028401 seconds 
+  path: Assets/Terrain/46.asset
+  artifactKey: Guid(531c42d45a743924594f61ca531d70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/46.asset using Guid(531c42d45a743924594f61ca531d70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '5b23c3b094ac0e1a5432909ce1263e80') in 0.033187 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/104-Bone-Trap.png
-  artifactKey: Guid(ef65aab13e15a4980bc0a51d43ee69e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/104-Bone-Trap.png using Guid(ef65aab13e15a4980bc0a51d43ee69e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1786227acf23d67e585a4a122f54e5') in 0.024651 seconds 
+  path: Assets/Terrain/39.asset
+  artifactKey: Guid(a013f9d57cf25974b9a0e3e751f71a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/39.asset using Guid(a013f9d57cf25974b9a0e3e751f71a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '72d3bc33cb59886a411e131c5d153a34') in 0.039999 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/99.Resource/150 Fantasy Skill Icons/Sprites/106-Bear-Trap.png
-  artifactKey: Guid(ef1c6f2d47db5475aa5f904dcfb8f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/150 Fantasy Skill Icons/Sprites/106-Bear-Trap.png using Guid(ef1c6f2d47db5475aa5f904dcfb8f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f385d3f4905cbb2bb4efb0856a2282e') in 0.024441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.665279 seconds.
-  path: Assets/02.Package/PBR Mini_Truck/Mini_Truck(cam).prefab
-  artifactKey: Guid(9decbb5c4e8c84e3bbe0de111aa0c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/PBR Mini_Truck/Mini_Truck(cam).prefab using Guid(9decbb5c4e8c84e3bbe0de111aa0c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fb666f37163d9c33aa92944311a25a') in 0.048100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/02.Package/PBR Mini_Truck/Textures/truck_yellow_albedo.tga
-  artifactKey: Guid(4eae87555fabf4341945a2527b552849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/PBR Mini_Truck/Textures/truck_yellow_albedo.tga using Guid(4eae87555fabf4341945a2527b552849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc42e4d66f2cf756f32361e09c9ae13') in 0.025001 seconds 
+  Time since last request: 0.252643 seconds.
+  path: Assets/Terrain/47.asset
+  artifactKey: Guid(387f2376b6324134e96d11eb92a4e35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/47.asset using Guid(387f2376b6324134e96d11eb92a4e35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f1a5535d489934b711b7e6bfc6e80c') in 0.026798 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/02.Package/PBR Mini_Truck/Model/truck.FBX
-  artifactKey: Guid(fa1e4bed42689426e85a168e2fd2f39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/PBR Mini_Truck/Model/truck.FBX using Guid(fa1e4bed42689426e85a168e2fd2f39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37c86e8023d34bbc26bcc11a9c0f5d7') in 0.066779 seconds 
+  path: Assets/Terrain/55.asset
+  artifactKey: Guid(e2152dcaf99f0c844a38d0eb8d7793e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/55.asset using Guid(e2152dcaf99f0c844a38d0eb8d7793e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'c7288a17b17ea9b21fbbd8287a8c5124') in 0.041728 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/02.Package/PBR Mini_Truck/Textures/truck_AO.tga
-  artifactKey: Guid(ad9e9ee3445344bacaf07878ee615ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Package/PBR Mini_Truck/Textures/truck_AO.tga using Guid(ad9e9ee3445344bacaf07878ee615ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a696b3054f80e89905f98cecffee39') in 0.013320 seconds 
+  path: Assets/Terrain/54.asset
+  artifactKey: Guid(dd29ba9ffe49cf344b75e182fd37db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/54.asset using Guid(dd29ba9ffe49cf344b75e182fd37db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'd0dc521ff576dcf680923381b6ad448f') in 0.043269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain/62.asset
+  artifactKey: Guid(bb170ecb400e97a45a7c3f5d7b881c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/62.asset using Guid(bb170ecb400e97a45a7c3f5d7b881c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree big tile old Concrete tile.001 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree lantern  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '148570784215214829436a88f4e9bd07') in 0.034975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Terrain/64.asset
+  artifactKey: Guid(849adb8bd683fd84a911dfdf15296d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/64.asset using Guid(849adb8bd683fd84a911dfdf15296d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree air vent  corner  must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'e6310d044129e46fba35912a23bfa4d2') in 0.015643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain/52.asset
+  artifactKey: Guid(e41e6267fe5a9384a9d35aff91b3bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/52.asset using Guid(e41e6267fe5a9384a9d35aff91b3bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree crate   must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '930251b169acc1a87bbfe6ae302340aa') in 0.014812 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -367,6 +367,8 @@
 "Assets/0.Scripts/UI/SkillController.cs"
 "Assets/0.Scripts/UI/SkillInfo.cs"
 "Assets/0.Scripts/UI/UIInterface.cs"
+"Assets/02.Package/IgniteCoders/Simple Water Shader/Info/Scripts/Readme.cs"
+"Assets/02.Package/IgniteCoders/Simple Water Shader/Resources/WaterReflection.cs"
 "Assets/02.Package/Old Sea Port/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/02.Package/Old Sea Port/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/02.Package/Old Sea Port/EffectExamples/Shared/Scripts/GunAim.cs"
