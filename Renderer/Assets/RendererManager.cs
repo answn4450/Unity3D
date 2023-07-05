@@ -6,7 +6,8 @@ public class RendererManager : MonoBehaviour
 {
     public Renderer renderer;
 
-    private const string path = "Legacy Shaders/Transparent/Specular";
+    //private const string path = "Legacy Shaders/Transparent/Specular";
+    private const string path = "Custom/Transparent/MyShader";
     
     void Start()
     {
