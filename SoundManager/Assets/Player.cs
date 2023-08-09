@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, ISoundPlayable
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioClip clip;
+
+    public void PlayCound(string _key)
     {
-        
+        SoundManager.Instance.PlayBGM(_key);
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        SoundManager.Instance.AddSoundClip(clip);
+        PlayCound("BGM_01");
+    }
+
     void Update()
     {
-        
+
     }
 }

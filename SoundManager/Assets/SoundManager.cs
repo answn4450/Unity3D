@@ -2,40 +2,53 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(AudioSource))]
 public class SoundManager : MonoBehaviour
 {
-    private static SoundManager Instance {get; set;} = null;
+    public static SoundManager Instance { get; private set; } = null;
 
     public AudioSource audioSource;
     public Dictionary<string, AudioClip> soundDictionary;
 
     private void Awake()
     {
-        if (Instance == null)
+        if(Instance == null)
         {
-            Instance = new SoundManager();
+            Instance = this;
             DontDestroyOnLoad(this.gameObject);
-        }    
+        }
         else
+        {
             Destroy(this.gameObject);
-
+        }
+        // ** 초기화
         audioSource = GetComponent<AudioSource>();
         soundDictionary = new Dictionary<string, AudioClip>();
     }
 
     public void PlaySound(string _key)
     {
+        if (!soundDictionary.ContainsKey(_key))
+        {
+            Debug.Log("없음..");
+            return;
+        }
 
+        var clip = soundDictionary[_key];
+        audioSource.PlayOneShot(clip);
     }
 
-    public void PlayBGM(string _key) 
+
+    public void PlayBGM(string _key)
     {
         if (!soundDictionary.ContainsKey(_key))
         {
-            Debug.Log("BGM 없음...");
+            Debug.Log("BGM 없음..");
+            return;
         }
 
-        audioSource.clip= soundDictionary[_key];
+        audioSource.clip = soundDictionary[_key];
         audioSource.loop = true;
         audioSource.Play();
     }
@@ -49,9 +62,18 @@ public class SoundManager : MonoBehaviour
     {
         if (soundDictionary.ContainsKey(_clip.name))
         {
-            Debug.Log("이미 있음");
+            Debug.Log("이미 있음..");
+            return;
         }
-        else
-            soundDictionary.Add(_clip.name, _clip);
+
+        soundDictionary[_clip.name] = _clip;
+    }
+
+
+    void Start()
+    {
+        // ** 사운드 불러오기.
+
+
     }
 }
